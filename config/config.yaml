@@ -181,7 +181,7 @@ filter:
                                        # ai = AI 智能分类，更灵活但每次运行消耗 token
                                        #      兴趣描述在 config/ai_interests.txt，需配合下方 ai_filter
 
-  priority_sort_enabled: true          # AI 模式标签排序（仅 method=ai 时生效）
+  priority_sort_enabled: false          # AI 模式标签排序（仅 method=ai 时生效）
                                        # true = 按兴趣描述中的定义顺序
                                        # false = 按匹配条数排序（多的在前）
 
